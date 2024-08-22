@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Consumer_wholesaler
+Bundle-SymbolicName: Consumer_wholesaler
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: consumer_wholesaler.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: Consumer_wholesaler
+Import-Package: deliveryservicepublisher,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
